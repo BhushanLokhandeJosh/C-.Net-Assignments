@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
+using System.Security.Cryptography.X509Certificates;
 
 namespace Module2
 {
@@ -11,29 +12,34 @@ namespace Module2
         public static void Main(string[] args)
         {
             /* 
-             Write a console application that takes an integer as input and  show at least 4
+             Write a console application that takes an integer as input and show at least 4
             operations  which can be perform on it.  for e.g 1) input number then outputs whether
-            the number is even or odd. 2) Whether its prime number .
+            the number is even or odd. 2) Whether its prime number . 3. Create and accept array
+            of objects  and print the array of objects key and values. if age  is greater then
+            18 years then print that user is allowed to vote.   
+
              */
 
             try
             {
-            Operation:
-                Console.WriteLine("Enter a number");
-                string readInput = Console.ReadLine();
-                int inputNumber;
-
-                Student[] Students;
-                int StudentIndex = 0;
-
-                bool checkIsNumber = int.TryParse(readInput, out inputNumber);
-                if (checkIsNumber)
+                string isContinue = "";
+                do
                 {
+                    Console.WriteLine("Enter a number");
+                    string readInput = Console.ReadLine();
+                    int inputNumber;
+
+                    Student[] Students;
+                    int StudentArrayIndex = 0;
+
+                    bool checkIsNumber = int.TryParse(readInput, out inputNumber);
+
+                    if (checkIsNumber)
+                    {
                         Console.WriteLine("Press 1 : Check Odd Or Even");
                         Console.WriteLine("Press 2 : Check Prime Number or not");
                         Console.WriteLine("Press 3 : To Enter {0} Student Details...", inputNumber);
-                        Console.WriteLine("Press 4 : Enter Id Of Student To Check whether he can cast a vote...");
-
+                       
                         short choice = Convert.ToInt16(Console.ReadLine());
 
                         switch (choice)
@@ -64,66 +70,96 @@ namespace Module2
                                     Console.WriteLine(inputNumber + " is a prime number.");
                                 else
                                     Console.WriteLine(inputNumber + " is not a prime number.");
-                            break;
+                                break;
 
                             case 3:
-                      
-                            Students = new Student[inputNumber];
 
-                            StudentDetails:
-                            Console.WriteLine("Enter Student Id");
-                            int Id = Convert.ToInt32(Console.ReadLine());
+                                Students = new Student[inputNumber];
 
-                            Console.WriteLine("Enter Student Name");
-                            string Name = Console.ReadLine();
-
-                            Console.WriteLine("Enter Student Age");
-                            int Age = Convert.ToInt32(Console.ReadLine());
-
-                            Student newStudent = new Student(Id, Name, Age);
-                            Students[StudentIndex] = newStudent;
-                            StudentIndex++;
-                            Console.WriteLine("You Have Successfully Entered Student Details...");
-                            if (StudentIndex == inputNumber)
-                            {
-                                Dictionary<int,Student> StudentKeyValue = Students.ToDictionary(stud => stud.Id);
-                                foreach (KeyValuePair<int,Student> student in StudentKeyValue)
+                                do
                                 {
-                                    Student C = student.Value;
-                                    Console.WriteLine("Key is : {0} , Name : {1} , Age : {2}", student.Key,C.Name,C.Age);
+
+                                    Console.WriteLine("Enter Student Id");
+                                    int Id = Convert.ToInt32(Console.ReadLine());
+
+                                    Console.WriteLine("Enter Student Name");
+                                    string Name = Console.ReadLine();
+
+                                    Console.WriteLine("Enter Student Age");
+                                    int Age = Convert.ToInt32(Console.ReadLine());
+
+                                    Student newStudent = new Student(Id, Name, Age);
+
+                                    Students[StudentArrayIndex] = newStudent;
+
+                                    StudentArrayIndex++;
+
+                                    Console.WriteLine("You Have Successfully Entered {0} Out Of {1} Student Details...", StudentArrayIndex, inputNumber);
+
+                                    if (StudentArrayIndex == inputNumber)
+                                    {
+                                        Dictionary<int, Student> StudentKeyValue = Students.ToDictionary(stud => stud.Id);
+                                        foreach (KeyValuePair<int, Student> student in StudentKeyValue)
+                                        {
+                                            Student stud = student.Value;
+                                            Console.WriteLine("Key is : {0} , Name : {1} , Age : {2}", student.Key, stud.Name, stud.Age);
+                                            if (stud.Age > 18)
+                                            {
+                                                Console.WriteLine("Student With Id : {0} , Name : {1} Allowed To Vote...", stud.Id, stud.Name);
+                                            }
+                                        }
+                                    }
+
+                                }
+                                while (StudentArrayIndex < inputNumber);
+                                break;
+
+                            case 4:
+
+                                Console.WriteLine("Enter Student Id");
+                                try
+                                {
+                                    int studentId = Convert.ToInt32(Console.ReadLine());
+
+                                }
+                                catch (Exception ex)
+                                {
+                                    Console.WriteLine("Message" + ex.Message);
                                 }
                                 break;
-                            }
-                            else
-                                goto StudentDetails;
 
                             default:
                                 Console.WriteLine("No Operation Exists For Given Input...");
                                 break;
                         }
+                        isContinue = ToContinue();
 
-                        Console.WriteLine("Press Y for continue and Anything to exit?");
-                        string isContinue = Console.ReadLine();
-                        switch(isContinue.ToUpper()) {
-                            case "Y":
-                                goto Operation;
-                            default:
-                                Console.WriteLine("Operation Completed...");
-                                break;
-                        }
+
                     }
-                else
-                {
-                  
-                    Console.WriteLine("{0} is not a number", readInput);
-                    Console.WriteLine("Please Try Again");
-                    goto Operation;
-                }
+                    else
+                    {
+
+                        Console.WriteLine("{0} is not a number", readInput);
+                        Console.WriteLine("Please Try Again");
+                        isContinue = ToContinue();
+                    }
+                } while (isContinue.ToUpper() == "Y");
             } catch (Exception e)
             {
                 Console.WriteLine(e.Message);
             }
+            finally
+            {
+                Console.WriteLine("Application Completed Succesfully...");
+            }
    
+        }
+
+        public static string ToContinue()
+        {
+            Console.WriteLine("Press Y for continue and Anything to exit?");
+            string isContinue = Console.ReadLine();
+            return isContinue;
         }
     }
 
