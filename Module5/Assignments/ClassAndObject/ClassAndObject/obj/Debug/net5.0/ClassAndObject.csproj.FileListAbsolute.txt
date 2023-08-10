@@ -1,0 +1,16 @@
+C:\Bhushan Data\Csharp-.Net-Assignments\Module5\Assignments\ClassAndObject\ClassAndObject\bin\Debug\net5.0\ClassAndObject.exe
+C:\Bhushan Data\Csharp-.Net-Assignments\Module5\Assignments\ClassAndObject\ClassAndObject\bin\Debug\net5.0\ClassAndObject.deps.json
+C:\Bhushan Data\Csharp-.Net-Assignments\Module5\Assignments\ClassAndObject\ClassAndObject\bin\Debug\net5.0\ClassAndObject.runtimeconfig.json
+C:\Bhushan Data\Csharp-.Net-Assignments\Module5\Assignments\ClassAndObject\ClassAndObject\bin\Debug\net5.0\ClassAndObject.runtimeconfig.dev.json
+C:\Bhushan Data\Csharp-.Net-Assignments\Module5\Assignments\ClassAndObject\ClassAndObject\bin\Debug\net5.0\ClassAndObject.dll
+C:\Bhushan Data\Csharp-.Net-Assignments\Module5\Assignments\ClassAndObject\ClassAndObject\bin\Debug\net5.0\ClassAndObject.pdb
+C:\Bhushan Data\Csharp-.Net-Assignments\Module5\Assignments\ClassAndObject\ClassAndObject\obj\Debug\net5.0\ClassAndObject.csproj.AssemblyReference.cache
+C:\Bhushan Data\Csharp-.Net-Assignments\Module5\Assignments\ClassAndObject\ClassAndObject\obj\Debug\net5.0\ClassAndObject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Bhushan Data\Csharp-.Net-Assignments\Module5\Assignments\ClassAndObject\ClassAndObject\obj\Debug\net5.0\ClassAndObject.AssemblyInfoInputs.cache
+C:\Bhushan Data\Csharp-.Net-Assignments\Module5\Assignments\ClassAndObject\ClassAndObject\obj\Debug\net5.0\ClassAndObject.AssemblyInfo.cs
+C:\Bhushan Data\Csharp-.Net-Assignments\Module5\Assignments\ClassAndObject\ClassAndObject\obj\Debug\net5.0\ClassAndObject.csproj.CoreCompileInputs.cache
+C:\Bhushan Data\Csharp-.Net-Assignments\Module5\Assignments\ClassAndObject\ClassAndObject\obj\Debug\net5.0\ClassAndObject.dll
+C:\Bhushan Data\Csharp-.Net-Assignments\Module5\Assignments\ClassAndObject\ClassAndObject\obj\Debug\net5.0\refint\ClassAndObject.dll
+C:\Bhushan Data\Csharp-.Net-Assignments\Module5\Assignments\ClassAndObject\ClassAndObject\obj\Debug\net5.0\ClassAndObject.pdb
+C:\Bhushan Data\Csharp-.Net-Assignments\Module5\Assignments\ClassAndObject\ClassAndObject\obj\Debug\net5.0\ClassAndObject.genruntimeconfig.cache
+C:\Bhushan Data\Csharp-.Net-Assignments\Module5\Assignments\ClassAndObject\ClassAndObject\obj\Debug\net5.0\ref\ClassAndObject.dll

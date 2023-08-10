@@ -1,0 +1,16 @@
+C:\Bhushan Data\Csharp-.Net-Assignments\Module5\Assignments\DataStructure\DataStructure\bin\Debug\net5.0\DataStructure.exe
+C:\Bhushan Data\Csharp-.Net-Assignments\Module5\Assignments\DataStructure\DataStructure\bin\Debug\net5.0\DataStructure.deps.json
+C:\Bhushan Data\Csharp-.Net-Assignments\Module5\Assignments\DataStructure\DataStructure\bin\Debug\net5.0\DataStructure.runtimeconfig.json
+C:\Bhushan Data\Csharp-.Net-Assignments\Module5\Assignments\DataStructure\DataStructure\bin\Debug\net5.0\DataStructure.runtimeconfig.dev.json
+C:\Bhushan Data\Csharp-.Net-Assignments\Module5\Assignments\DataStructure\DataStructure\bin\Debug\net5.0\DataStructure.dll
+C:\Bhushan Data\Csharp-.Net-Assignments\Module5\Assignments\DataStructure\DataStructure\bin\Debug\net5.0\DataStructure.pdb
+C:\Bhushan Data\Csharp-.Net-Assignments\Module5\Assignments\DataStructure\DataStructure\obj\Debug\net5.0\DataStructure.csproj.AssemblyReference.cache
+C:\Bhushan Data\Csharp-.Net-Assignments\Module5\Assignments\DataStructure\DataStructure\obj\Debug\net5.0\DataStructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Bhushan Data\Csharp-.Net-Assignments\Module5\Assignments\DataStructure\DataStructure\obj\Debug\net5.0\DataStructure.AssemblyInfoInputs.cache
+C:\Bhushan Data\Csharp-.Net-Assignments\Module5\Assignments\DataStructure\DataStructure\obj\Debug\net5.0\DataStructure.AssemblyInfo.cs
+C:\Bhushan Data\Csharp-.Net-Assignments\Module5\Assignments\DataStructure\DataStructure\obj\Debug\net5.0\DataStructure.csproj.CoreCompileInputs.cache
+C:\Bhushan Data\Csharp-.Net-Assignments\Module5\Assignments\DataStructure\DataStructure\obj\Debug\net5.0\DataStructure.dll
+C:\Bhushan Data\Csharp-.Net-Assignments\Module5\Assignments\DataStructure\DataStructure\obj\Debug\net5.0\refint\DataStructure.dll
+C:\Bhushan Data\Csharp-.Net-Assignments\Module5\Assignments\DataStructure\DataStructure\obj\Debug\net5.0\DataStructure.pdb
+C:\Bhushan Data\Csharp-.Net-Assignments\Module5\Assignments\DataStructure\DataStructure\obj\Debug\net5.0\DataStructure.genruntimeconfig.cache
+C:\Bhushan Data\Csharp-.Net-Assignments\Module5\Assignments\DataStructure\DataStructure\obj\Debug\net5.0\ref\DataStructure.dll

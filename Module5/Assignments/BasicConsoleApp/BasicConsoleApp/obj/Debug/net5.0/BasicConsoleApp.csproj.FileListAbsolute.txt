@@ -1,0 +1,16 @@
+C:\Bhushan Data\Csharp-.Net-Assignments\Module5\Assignments\BasicConsoleApp\BasicConsoleApp\bin\Debug\net5.0\BasicConsoleApp.exe
+C:\Bhushan Data\Csharp-.Net-Assignments\Module5\Assignments\BasicConsoleApp\BasicConsoleApp\bin\Debug\net5.0\BasicConsoleApp.deps.json
+C:\Bhushan Data\Csharp-.Net-Assignments\Module5\Assignments\BasicConsoleApp\BasicConsoleApp\bin\Debug\net5.0\BasicConsoleApp.runtimeconfig.json
+C:\Bhushan Data\Csharp-.Net-Assignments\Module5\Assignments\BasicConsoleApp\BasicConsoleApp\bin\Debug\net5.0\BasicConsoleApp.runtimeconfig.dev.json
+C:\Bhushan Data\Csharp-.Net-Assignments\Module5\Assignments\BasicConsoleApp\BasicConsoleApp\bin\Debug\net5.0\BasicConsoleApp.dll
+C:\Bhushan Data\Csharp-.Net-Assignments\Module5\Assignments\BasicConsoleApp\BasicConsoleApp\bin\Debug\net5.0\BasicConsoleApp.pdb
+C:\Bhushan Data\Csharp-.Net-Assignments\Module5\Assignments\BasicConsoleApp\BasicConsoleApp\obj\Debug\net5.0\BasicConsoleApp.csproj.AssemblyReference.cache
+C:\Bhushan Data\Csharp-.Net-Assignments\Module5\Assignments\BasicConsoleApp\BasicConsoleApp\obj\Debug\net5.0\BasicConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Bhushan Data\Csharp-.Net-Assignments\Module5\Assignments\BasicConsoleApp\BasicConsoleApp\obj\Debug\net5.0\BasicConsoleApp.AssemblyInfoInputs.cache
+C:\Bhushan Data\Csharp-.Net-Assignments\Module5\Assignments\BasicConsoleApp\BasicConsoleApp\obj\Debug\net5.0\BasicConsoleApp.AssemblyInfo.cs
+C:\Bhushan Data\Csharp-.Net-Assignments\Module5\Assignments\BasicConsoleApp\BasicConsoleApp\obj\Debug\net5.0\BasicConsoleApp.csproj.CoreCompileInputs.cache
+C:\Bhushan Data\Csharp-.Net-Assignments\Module5\Assignments\BasicConsoleApp\BasicConsoleApp\obj\Debug\net5.0\BasicConsoleApp.dll
+C:\Bhushan Data\Csharp-.Net-Assignments\Module5\Assignments\BasicConsoleApp\BasicConsoleApp\obj\Debug\net5.0\refint\BasicConsoleApp.dll
+C:\Bhushan Data\Csharp-.Net-Assignments\Module5\Assignments\BasicConsoleApp\BasicConsoleApp\obj\Debug\net5.0\BasicConsoleApp.pdb
+C:\Bhushan Data\Csharp-.Net-Assignments\Module5\Assignments\BasicConsoleApp\BasicConsoleApp\obj\Debug\net5.0\BasicConsoleApp.genruntimeconfig.cache
+C:\Bhushan Data\Csharp-.Net-Assignments\Module5\Assignments\BasicConsoleApp\BasicConsoleApp\obj\Debug\net5.0\ref\BasicConsoleApp.dll
