@@ -6,13 +6,25 @@ namespace Assignments6
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            Console.WriteLine("Enter Your Name");
-            string Name = Console.ReadLine();
-            Console.WriteLine("Enter You Age");
-            int Age = Convert.ToInt32(Console.ReadLine());
-            Person person = new Person(Name, Age);
-            person.IntroducePerson();
+            try
+            {
+                Console.WriteLine("Hello World!");
+                Console.WriteLine("Enter Your Name");
+                string Name = Console.ReadLine();
+                Console.WriteLine("Enter You Age");
+                int Age = Convert.ToInt32(Console.ReadLine());
+                Person person = new Person(Name, Age);
+                person.IntroducePerson();
+
+            } 
+            catch (Exception ex)
+            {
+                Console.WriteLine("Exception : " + ex.Message);
+            } 
+            finally 
+            {
+                Console.WriteLine("Application completed Successfully..");
+            }
         }
     }
 

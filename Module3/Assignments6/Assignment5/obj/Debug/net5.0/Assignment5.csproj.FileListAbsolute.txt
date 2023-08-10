@@ -1,0 +1,16 @@
+C:\Bhushan Data\Csharp-.Net-Assignments\Module3\Assignments6\Assignment5\bin\Debug\net5.0\Assignment5.exe
+C:\Bhushan Data\Csharp-.Net-Assignments\Module3\Assignments6\Assignment5\bin\Debug\net5.0\Assignment5.deps.json
+C:\Bhushan Data\Csharp-.Net-Assignments\Module3\Assignments6\Assignment5\bin\Debug\net5.0\Assignment5.runtimeconfig.json
+C:\Bhushan Data\Csharp-.Net-Assignments\Module3\Assignments6\Assignment5\bin\Debug\net5.0\Assignment5.runtimeconfig.dev.json
+C:\Bhushan Data\Csharp-.Net-Assignments\Module3\Assignments6\Assignment5\bin\Debug\net5.0\Assignment5.dll
+C:\Bhushan Data\Csharp-.Net-Assignments\Module3\Assignments6\Assignment5\bin\Debug\net5.0\Assignment5.pdb
+C:\Bhushan Data\Csharp-.Net-Assignments\Module3\Assignments6\Assignment5\obj\Debug\net5.0\Assignment5.csproj.AssemblyReference.cache
+C:\Bhushan Data\Csharp-.Net-Assignments\Module3\Assignments6\Assignment5\obj\Debug\net5.0\Assignment5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Bhushan Data\Csharp-.Net-Assignments\Module3\Assignments6\Assignment5\obj\Debug\net5.0\Assignment5.AssemblyInfoInputs.cache
+C:\Bhushan Data\Csharp-.Net-Assignments\Module3\Assignments6\Assignment5\obj\Debug\net5.0\Assignment5.AssemblyInfo.cs
+C:\Bhushan Data\Csharp-.Net-Assignments\Module3\Assignments6\Assignment5\obj\Debug\net5.0\Assignment5.csproj.CoreCompileInputs.cache
+C:\Bhushan Data\Csharp-.Net-Assignments\Module3\Assignments6\Assignment5\obj\Debug\net5.0\Assignment5.dll
+C:\Bhushan Data\Csharp-.Net-Assignments\Module3\Assignments6\Assignment5\obj\Debug\net5.0\refint\Assignment5.dll
+C:\Bhushan Data\Csharp-.Net-Assignments\Module3\Assignments6\Assignment5\obj\Debug\net5.0\Assignment5.pdb
+C:\Bhushan Data\Csharp-.Net-Assignments\Module3\Assignments6\Assignment5\obj\Debug\net5.0\Assignment5.genruntimeconfig.cache
+C:\Bhushan Data\Csharp-.Net-Assignments\Module3\Assignments6\Assignment5\obj\Debug\net5.0\ref\Assignment5.dll
